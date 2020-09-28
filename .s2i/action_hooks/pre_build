@@ -8,7 +8,7 @@
 # must grab them from the '/tmp/src' directory as they will only be
 # copied into place by the original S2I 'assemble' script later on in
 # the build process.
-
+# make it executable
 set -eo pipefail
 
 # Dump out the initial set of environment variables.
